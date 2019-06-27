@@ -4,13 +4,37 @@
 
 ## Planing
 
-1. **Components**
+1.  **Components**
 
-    1.1. Test
+    1.1. Layout
 
-    1.2. Test
+        - For Navigation Bar, and Navigation Items
+        - Jumbotron Style Component to be used on most pages
 
-2. **txt**
+    1.2. Landing Page Components
+
+        - Maybe one for the background (may not be needed?), one hoc for bluring and one for the content on the landing page
+
+    1.3. Projects Page
+
+        - Projects component, and a Project component, with a card-like Style with image, title, paragraphs and a button/link to a external page
+        - I might need a component just for the Color Game. (Maybe a blur effect with a div on top show as if it was a new page, and puting the color game there?)
+
+    1.3. Contact Information Page
+
+        - Show the form and do form validation
+
+2)  **Other Important Information**
+
+    2.1. Icons
+
+        - https://www.npmjs.com/package/react-icons
+        - Install and use those icons
+
+    2.2. xxx
+
+        - xxx
+        - xxx
 
 ## Down here is the default readme file
 
