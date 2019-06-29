@@ -1,0 +1,19 @@
+.NavItem {
+    float: left;
+}
+
+.NavItemBrand {
+    color: #ffffff;
+    padding-right: 0.2em;
+    font-size: 1.25rem;
+}
+.NavItemLink {
+    color: #1ea0bb;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.NavItemLink:hover {
+    color: #ffffff;
+}

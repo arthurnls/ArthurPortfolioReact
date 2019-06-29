@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+
+    align-items: start;
+}
+
+.container p {
+    margin-top: 0;
+}
+.containerImage {
+    justify-self: center;
+}
+
+.containerText {
+    padding: 16px 16px;
+}
+
+.textAnchor {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .containerText {
+        padding: 0 16px;
+    }
+}

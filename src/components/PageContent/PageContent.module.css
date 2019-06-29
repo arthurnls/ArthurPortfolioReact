@@ -1,0 +1,20 @@
+.PageContent {
+    box-sizing: border-box;
+    display: block;
+
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+    .PageContent {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .PageContent {
+        max-width: 960px;
+    }
+}

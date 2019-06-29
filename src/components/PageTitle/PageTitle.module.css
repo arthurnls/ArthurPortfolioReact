@@ -1,0 +1,9 @@
+.PageTitle {
+    background-color: rgb(30, 160, 187);
+    color: #ffffff;
+    padding: 64px 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}

@@ -1,0 +1,26 @@
+.NavBar {
+    height: 56px;
+    background-color: #343a40;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+}

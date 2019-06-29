@@ -1,0 +1,12 @@
+.aboutImage {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .aboutImage {
+        height: 190px;
+        width: 190px;
+    }
+}
