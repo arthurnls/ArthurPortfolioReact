@@ -10,3 +10,8 @@
         width: 190px;
     }
 }
+
+.projectImage {
+    width: 100%;
+    border: solid 1px #777;
+}

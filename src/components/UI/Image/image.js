@@ -35,6 +35,9 @@ const Image = props => {
         case "about":
             classname = classes.aboutImage;
             break;
+        case "project":
+            classname = classes.projectImage;
+            break;
         default:
             classname = "";
     }

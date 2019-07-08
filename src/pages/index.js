@@ -1,49 +1,17 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/UI/Layout/layout";
-import Image from "../components/UI/Image/image";
 import SEO from "../components/SEO/seo";
 
+// This is the Landing Page
+// Uses Layout to add the header with navigation bars and a main tag as html5 semantic element
+// Inside, starts with SEO component
+// Then ....
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus quibusdam numquam molestiae voluptates saepe architecto
-            aliquid consequuntur expedita veritatis, similique vitae
-            praesentium, temporibus deleniti nostrum dicta dolorum reprehenderit
-            at doloremque beatae illo quo consequatur, asperiores corrupti
-            voluptatibus. Nihil beatae porro quasi quibusdam temporibus magni?
-            Molestias consequatur atque et ipsa neque tempora sequi natus nisi,
-            veritatis provident dolorum aspernatur nobis quisquam.
-        </p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus quibusdam numquam molestiae voluptates saepe architecto
-            aliquid consequuntur expedita veritatis, similique vitae
-            praesentium, temporibus deleniti nostrum dicta dolorum reprehenderit
-            at doloremque beatae illo quo consequatur, asperiores corrupti
-            voluptatibus. Nihil beatae porro quasi quibusdam temporibus magni?
-            Molestias consequatur atque et ipsa neque tempora sequi natus nisi,
-            veritatis provident dolorum aspernatur nobis quisquam.
-        </p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus quibusdam numquam molestiae voluptates saepe architecto
-            aliquid consequuntur expedita veritatis, similique vitae
-            praesentium, temporibus deleniti nostrum dicta dolorum reprehenderit
-            at doloremque beatae illo quo consequatur, asperiores corrupti
-            voluptatibus. Nihil beatae porro quasi quibusdam temporibus magni?
-            Molestias consequatur atque et ipsa neque tempora sequi natus nisi,
-            veritatis provident dolorum aspernatur nobis quisquam.
-        </p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-            <Image />
-        </div>
+        <h1>This is the HOME Page</h1>
+        <p>Still working on this page</p>
     </Layout>
 );
 

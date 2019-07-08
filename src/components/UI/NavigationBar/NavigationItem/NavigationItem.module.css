@@ -14,6 +14,7 @@
     text-decoration: none;
 }
 
-.NavItemLink:hover {
+.NavItemLink:hover,
+.NavItemLinkActive {
     color: #ffffff;
 }

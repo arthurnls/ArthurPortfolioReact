@@ -5,14 +5,17 @@ import SEO from "../components/SEO/seo";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageContent from "../components/PageContent/PageContent";
 
+// This is the About Page
+// Uses Layout to add the header with navigation bars and a main tag as html5 semantic element
+// Inside, starts with SEO component
+// Then uses PageTitle component for the top jumbotron-like heading for the content
+// Then uses PageContent to render the about page content
 const AboutPage = () => {
-    const textContent =
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis consequatur provident ea odit quisquam eaque dolorum assumenda omnis dolore velit quas quaerat laboriosam rerum illum natus animi sit voluptate, harum fugit accusantium ipsa repudiandae cumque asperiores! Hic, nihil nemo.";
     return (
         <Layout>
             <SEO title="About" />
             <PageTitle title="About Me" />
-            <PageContent pageType="about">{textContent}</PageContent>
+            <PageContent pageType="about" />
         </Layout>
     );
 };
