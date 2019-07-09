@@ -32,6 +32,12 @@ const Image = props => {
 
     let classname = "";
     switch (props.originPage) {
+        case "home":
+            classname = classes.homeImage;
+            break;
+        case "homeBackground":
+            classname = classes.homeBackgroundImage;
+            break;
         case "about":
             classname = classes.aboutImage;
             break;

@@ -1,6 +1,7 @@
 import React from "react";
 
 import classes from "./PageContent.module.css";
+import HomePageBody from "./PageBody/HomePageBody";
 import AboutPageBody from "./PageBody/AboutPageBody";
 import ProjectsPageBody from "./PageBody/ProjectsPageBody";
 import ContactPageBody from "./PageBody/ContactPageBody";
