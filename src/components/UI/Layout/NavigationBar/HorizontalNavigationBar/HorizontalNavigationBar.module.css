@@ -1,0 +1,13 @@
+.HorizontalNavBarUl {
+    display: none;
+    list-style-type: none;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .HorizontalNavBarUl {
+        display: block;
+    }
+}

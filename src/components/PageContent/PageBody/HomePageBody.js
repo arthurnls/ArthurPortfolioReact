@@ -7,6 +7,7 @@ import Image from "../../UI/Image/image";
 const HomePageBody = () => {
     return (
         <>
+            {/* From here onward is DONE */}
             <div className={classes.containerImage}>
                 <Image
                     originPage="homeBackground"
@@ -14,6 +15,7 @@ const HomePageBody = () => {
                     alt="Background Image"
                 />
             </div>
+            <div className={classes.Blur}></div>
             <div className={classes.containerText}>
                 <Image
                     originPage="home"

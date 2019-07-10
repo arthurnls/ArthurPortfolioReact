@@ -1,0 +1,60 @@
+.NavItem,
+.NavItemShowOnMobile {
+    float: left;
+}
+
+.NavItemBrand {
+    color: #ffffff;
+    padding-right: 0.2em;
+    font-size: 1.25rem;
+}
+.NavItemLink {
+    color: #1ea0bb;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.NavItemLink:hover,
+.NavItemLinkActive {
+    color: #ffffff;
+}
+
+/* burgerIcon */
+.burgerIcon {
+    border: solid 2px rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    float: left;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0;
+}
+
+.burgerIcon div {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 90%;
+    height: 1px;
+    background-color: white;
+}
+
+/* On Mobile: */
+@media (max-width: 767px) {
+    .NavItem {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .burgerIcon {
+        display: none;
+    }
+}

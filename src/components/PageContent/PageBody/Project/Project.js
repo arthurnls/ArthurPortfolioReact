@@ -24,7 +24,10 @@ const Project = props => {
                 </em>
             </p>
             <span>
-                <a href="https://burger-builder-saraiva.web.app/">
+                <a
+                    href="https://burger-builder-saraiva.web.app/"
+                    target="_blank"
+                >
                     Open Burger Builder
                 </a>
             </span>
@@ -48,7 +51,7 @@ const Project = props => {
                 </em>
             </p>
             <span>
-                <a href="https://yelpcamp-arthur.herokuapp.com">
+                <a href="https://yelpcamp-arthur.herokuapp.com" target="_blank">
                     Open Yelp Camp
                 </a>
             </span>
@@ -71,7 +74,10 @@ const Project = props => {
                 changing the page.
             </p>
             <span>
-                <a href="https://kind-hoover-91cc27.netlify.com/">
+                <a
+                    href="https://kind-hoover-91cc27.netlify.com/"
+                    target="_blank"
+                >
                     Try Color Game
                 </a>
             </span>
@@ -92,7 +98,7 @@ const Project = props => {
                 not see new reloads while navigating through them.
             </p>
             <span>
-                <a href="https://arthurportfolio.netlify.com">
+                <a href="https://arthurportfolio.netlify.com" target="_blank">
                     Test the old page
                 </a>
             </span>
