@@ -19,7 +19,7 @@ const HomePageBody = () => {
             <div className={classes.containerText}>
                 <Image
                     originPage="home"
-                    fileName="profilePhoto.jpg"
+                    fileName="profilePhoto2.png"
                     alt="Profile Photo"
                 />
                 <h1>Arthur Saraiva</h1>

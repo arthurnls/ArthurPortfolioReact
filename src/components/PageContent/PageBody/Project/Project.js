@@ -136,7 +136,7 @@ const Project = props => {
             break;
         default:
             config = {
-                fileName: "profilePhoto.jpg",
+                fileName: "profilePhoto2.png",
                 alt: "Profile Photo",
                 projectText: "Error!",
             };

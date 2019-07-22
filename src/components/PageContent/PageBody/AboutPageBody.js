@@ -10,7 +10,7 @@ const AboutPageBody = () => {
             <div className={classes.containerImage}>
                 <Image
                     originPage="about"
-                    fileName="profilePhoto.jpg"
+                    fileName="profilePhoto2.png"
                     alt="Profile Photo"
                 />
             </div>
