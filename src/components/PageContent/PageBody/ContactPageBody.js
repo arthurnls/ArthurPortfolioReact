@@ -15,7 +15,7 @@ const ContactPageBody = () => {
                 {/* This hidden input is needed for netlify forms to work */}
                 <input type="hidden" name="form-name" value="contact" />
                 <p className={classes.openingMessage}>
-                    Please, send your message bellow
+                    If you want to contact me please, send your message bellow
                 </p>
 
                 {/* TESTING STUFF */}

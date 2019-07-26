@@ -23,7 +23,7 @@ const HomePageBody = () => {
                     alt="Profile Photo"
                 />
                 <h1>Arthur Saraiva</h1>
-                <p>Web Developer, always studying and improving.</p>
+                <p>Full Stack Web Developer, always studying and improving.</p>
                 <p>
                     Attending Business Information Technology at Red River
                     College, Winnipeg, MB.

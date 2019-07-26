@@ -25,9 +25,12 @@ const AboutPageBody = () => {
                     Investigator for 4 years, before coming to Canada.
                 </p>
                 <p>
-                    I have great interest and some experience in working with
-                    web development, and have worked on my skills in the field,
-                    learning new tools and technologies.
+                    I have great interest and some experience in full stack web
+                    development, and have worked on my skills in the field,
+                    learning new tools and technologies. The technologies I have
+                    worked with include HTML, CSS, Javascript (ES6), Bootstrap
+                    4, Git, npm, MongoDB, Express.js, Node.js, React, Redux and
+                    Gatsby.
                 </p>
                 <p>
                     My experience working at the Police improved my creative

@@ -10,11 +10,12 @@ const Project = props => {
             <h2>Burger Builder</h2>
             <p>
                 Burger Builder is a web application I developed and deployed for
-                practicing React. Developed using React, Redux, React Router.
-                Features statefull and stateless components and containers,
-                state management with Redux. Has user authentication and
-                resource blocking for non-authorized users, forms and form
-                validation. Handling http requests using axios.
+                practicing React. Focusing on the Front End, it was developed
+                using React, Redux, React Router. Features statefull and
+                stateless components and containers, state management with
+                Redux. Has user authentication and resource blocking for
+                non-authorized users, forms and form validation. Handling http
+                requests using axios.
             </p>
             <p>
                 <em>
@@ -37,12 +38,12 @@ const Project = props => {
         <>
             <h2>Yelp Camp</h2>
             <p>
-                Yelp Camp is a web application I developed and deployed for
-                practicing. Developed using HTML, CSS, JavaScript, Bootstrap 4,
-                Git, MongoDB, Express and NodeJS. This project was initially
-                developed during the Udemy course, and after finishing that, I
-                started refactoring and adding new functionalities, such as
-                using google maps API and searching.
+                Yelp Camp is a full stack web application I developed and
+                deployed for practicing. Developed using HTML, CSS, JavaScript,
+                Bootstrap 4, Git, MongoDB, Express and NodeJS. This project was
+                initially developed during the Udemy course, and after finishing
+                that, I started refactoring and adding new functionalities, such
+                as using google maps API and searching.
             </p>
             <p>
                 <em>
@@ -87,9 +88,10 @@ const Project = props => {
         <>
             <h2>Portfolio Page</h2>
             <p>
-                The current portfolio page was built using React and Gatsby.
-                Before this one, I have build the old page using HTML CSS and
-                Javascript only, with the help of Bootstrap for styling.
+                The current portfolio page was built using React and Gatsby for
+                the Front End. Before this one, I have build the old page using
+                HTML CSS and Javascript only, with the help of Bootstrap for
+                styling.
             </p>
             <p>
                 Even though it worked well, by recreating this page using React
