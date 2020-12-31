@@ -16,21 +16,34 @@ const AboutPageBody = () => {
             </div>
             <div className={classes.containerText}>
                 <p>
-                    I came from Brasil to Winnipeg to attend to the Business
-                    Information Technology course at Red River College. I have
-                    graduated from a Bachelor Degree in Computer Science, while
-                    I was running my own business with my brother in my home
-                    country. We've ran the business for about 10 years, then I
-                    entered the police and started working as a Crime Scene
-                    Investigator for 4 years, before coming to Canada.
+                    In 2018, I came from Brasil to Winnipeg to attend to the
+                    Business Information Technology course at Red River College.
+                    Before coming to Canada, I have graduated from a Bachelor
+                    Degree in Computer Science, while I was running my own
+                    business with my brother in my home country. We have ran the
+                    business for about 10 years, then I entered the police force
+                    and worked as a Crime Scene Investigator for 4 years. Then I
+                    moved to Canada.
                 </p>
                 <p>
-                    I have great interest and some experience in full stack web
-                    development, and have worked on my skills in the field,
-                    learning new tools and technologies. The technologies I have
-                    worked with include HTML, CSS, Javascript (ES6), Bootstrap
-                    4, Git, npm, MongoDB, Express.js, Node.js, React, Redux and
-                    Gatsby.
+                    I pride myself in being a resourceful Software Developer.
+                    Since I started learning to program, I became passionate
+                    about it. I am always studying and learning new technologies
+                    and techniques, and love to help and discuss about
+                    programming.
+                </p>
+                <p>
+                    I am now working at Johnston Group as an Application
+                    Developer in .NET team, maintaining current applications and
+                    developing new features. I used both modern and legacy
+                    technologies and worked mostly with Angular, ASP .NET, C#,
+                    .NET Framework, AVR (ASNA Visual RPG).
+                </p>
+                <p>
+                    On my free time, I built side projects while learning
+                    NodeJS, React and MongoDB. I also have some experience
+                    programming in PHP, Ruby On Rails, Python. On databases, I
+                    used SQL, SQLite, MongoDB, Firebase.
                 </p>
                 <p>
                     My experience working at the Police improved my creative
@@ -46,10 +59,13 @@ const AboutPageBody = () => {
                     <Link className={classes.textAnchor} to="/contact">
                         contact me
                     </Link>{" "}
-                    throught the page or{" "}
-                    <Link className={classes.textAnchor} to="/">
-                        social media
-                    </Link>
+                    or use{" "}
+                    <a
+                        className={classes.textAnchor}
+                        href="https://www.linkedin.com/in/arthur-saraiva/"
+                    >
+                        Linkedin
+                    </a>
                     .
                 </p>
             </div>

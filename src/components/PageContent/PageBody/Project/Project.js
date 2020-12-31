@@ -5,17 +5,107 @@ import classes from "./Project.module.css";
 
 const Project = props => {
     let config = null;
+    let ExpensesManagerText = (
+        <>
+            <h2>Expenses Manager</h2>
+            <p>
+                <strong>2020-12: </strong>
+                Expenses Manager is a personal project I am building to use for
+                my family expenses tracking routine, in the place of the current
+                excel system we have. It is a fullstack web application
+                developed using the MERN Stack.
+            </p>
+            <p>
+                The Front End was built in <strong>React</strong> using
+                functional components and hooks, including custom hooks, user
+                authentication. It has password reset capabilities, and
+                graphical reports done using chartjs.
+            </p>
+            <p>
+                Similarly to MemeShare, the Backend was built using
+                <strong> NodeJS and Express</strong>, with the database being
+                <strong> MongoDB</strong> managed through MongoDB Atlas service.
+            </p>
+            <p>
+                This project is currently at a MVP state. I plan to deploy this
+                project to AWS later in January. Still have some security and
+                deployment considerations to take into account before it is
+                deployed to Production.
+            </p>
+        </>
+    );
+    let PyCoinText = (
+        <>
+            <h2>PyCoin Blockchain</h2>
+            <p>
+                <strong>2020-09: </strong>
+                This project was built during a Python Udemy course, that I took
+                in paralel to Red River College's last term. I wanted to improve
+                my understandings of basic and advanced concepts of
+                <strong> Python</strong> programming language.
+            </p>
+            <p>
+                It also allowed me to study and understand the concepts behind a
+                blockchaing. Implemented a basic network distributed blockchain
+                application.
+            </p>
+            <span>
+                <a href="https://github.com/arthurnls/pycoin" target="_blank">
+                    View PyCoin Repo
+                </a>
+            </span>
+        </>
+    );
+    let MemeShareText = (
+        <>
+            <h2>Meme Share</h2>
+            <p>
+                <strong>2020-04: </strong>
+                Meme Share is a fullstack web application developed using and
+                practicing the MERN Stack. The Front End was built in
+                <strong> React</strong> using functional components and hooks,
+                including custom hooks, user authentication and file uploads.
+                Deployed to Netlify.
+            </p>
+            <p>
+                The Backend was built using <strong>NodeJS and Express</strong>,
+                with the database being <strong>MongoDB</strong> managed through
+                MongoDB Atlas service. The backend was deployed on Heroku. The
+                images file upload is currently done by saving it manually on
+                the server, which causes the images to break after a while
+                because of how Heroku deals with its servers.
+            </p>
+            <p>
+                I still have to update this project to fix the image upload
+                issue, either deploying in AWS or just converting it to use AWS
+                S3 for file upload.
+            </p>
+            <p>
+                <em>
+                    You can use "<strong>tester@gmail.com</strong>" as username
+                    and "<strong>asdasd</strong>" as password, or create your
+                    own user, for testing the application.
+                </em>
+            </p>
+            <span>
+                <a href="https://memesshare.netlify.app/" target="_blank">
+                    Open Meme Share
+                </a>
+            </span>
+        </>
+    );
     let BurgerBuilderText = (
         <>
             <h2>Burger Builder</h2>
             <p>
+                <strong>2019-08: </strong>
                 Burger Builder is a web application I developed and deployed for
                 practicing React. Focusing on the Front End, it was developed
-                using React, Redux, React Router. Features statefull and
-                stateless components and containers, state management with
-                Redux. Has user authentication and resource blocking for
-                non-authorized users, forms and form validation. Handling http
-                requests using axios.
+                using <strong>React, Redux, React Router</strong>. Features
+                statefull and stateless components and containers, state
+                management with Redux. Has user authentication and resource
+                blocking for non-authorized users, forms and form validation.
+                Handling http requests using axios.
             </p>
             <p>
                 <em>
@@ -38,12 +128,16 @@ const Project = props => {
         <>
             <h2>Yelp Camp</h2>
             <p>
-                Yelp Camp is a full stack web application I developed and
-                deployed for practicing. Developed using HTML, CSS, JavaScript,
-                Bootstrap 4, Git, MongoDB, Express and NodeJS. This project was
-                initially developed during the Udemy course, and after finishing
-                that, I started refactoring and adding new functionalities, such
-                as using google maps API and searching.
+                <strong>2019-04: </strong>
+                Yelp Camp is the first full stack web application I developed
+                and deployed for practicing. Developed using{" "}
+                <strong>
+                    HTML, CSS, JavaScript, Bootstrap 4, Git, MongoDB, Express
+                    and NodeJS
+                </strong>
+                . This project was initially developed during the Udemy course,
+                and after finishing it, I started refactoring and adding new
+                functionalities, such as using google maps API and searching.
             </p>
             <p>
                 <em>
@@ -62,11 +156,13 @@ const Project = props => {
         <>
             <h2>Color Game</h2>
             <p>
-                Color Game was a very simple application that I created to test
-                and practice my skills on basic HTML, CSS and JavaScript. The
-                game generates 6 random colors, shows you one of those chosen
-                randomly on RGB format, and the player tries to guess which of
-                those colors is the right one.
+                <strong>2019-02: </strong>
+                Color Game was a very simple application that I created when I
+                started learning, to test and practice my skills on basic{" "}
+                <strong>HTML, CSS and JavaScript</strong>. The game generates 6
+                random colors, shows you one of those chosen randomly on RGB
+                format, and the player tries to guess which of those colors is
+                the right one.
             </p>
             <p>
                 This application helped me understand better the interaction of
@@ -88,10 +184,12 @@ const Project = props => {
         <>
             <h2>Portfolio Page</h2>
             <p>
-                The current portfolio page was built using React and Gatsby for
-                the Front End. Before this one, I have build the old page using
-                HTML CSS and Javascript only, with the help of Bootstrap for
-                styling.
+                <strong>2019-08: </strong>
+                The current portfolio page was built using{" "}
+                <strong>React and Gatsby</strong> for the Front End. Before this
+                one, I have build the{" "}
+                <strong>old page using HTML CSS and Javascript only</strong>,
+                with the help of Bootstrap for styling.
             </p>
             <p>
                 Even though it worked well, by recreating this page using React
@@ -108,6 +206,27 @@ const Project = props => {
     );
 
     switch (props.projectTitle) {
+        case "ExpensesManager":
+            config = {
+                fileName: "expensesManager2.PNG",
+                alt: "Expenses Manager Screenshot",
+                projectText: ExpensesManagerText,
+            };
+            break;
+        case "PyCoin":
+            config = {
+                fileName: "pyCoin1.JPG",
+                alt: "PyCoin Screenshot",
+                projectText: PyCoinText,
+            };
+            break;
+        case "MemeShare":
+            config = {
+                fileName: "MemeShare1.PNG",
+                alt: "Meme Share Screenshot",
+                projectText: MemeShareText,
+            };
+            break;
         case "BurgerBuilder":
             config = {
                 fileName: "burgerBuilder1.PNG",

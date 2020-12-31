@@ -25,13 +25,13 @@ const HomePageBody = () => {
                 <h1>Arthur Saraiva</h1>
                 <p>Full Stack Web Developer, always studying and improving.</p>
                 <p>
-                    Attending Business Information Technology at Red River
-                    College, Winnipeg, MB.
+                    Graduated in 2020/12 from Business Information Technology at
+                    Red River College, Winnipeg, MB.
                 </p>
                 <p>
                     <a
                         className={classes.button}
-                        href="https://www.linkedin.com/in/arthur-saraiva-a8b8b6a3/"
+                        href="https://www.linkedin.com/in/arthur-saraiva/"
                     >
                         <span className={classes.socialMediaIcon}>
                             <FaLinkedin />
