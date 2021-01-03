@@ -40,13 +40,13 @@ const Project = props => {
             <p>
                 <strong>2020-09: </strong>
                 This project was built during a Python Udemy course, that I took
-                in paralel to Red River College's last term. I wanted to improve
-                my understandings of basic and advanced concepts of
+                in parallel to Red River College's last term. I wanted to
+                improve my understandings of basic and advanced concepts of
                 <strong> Python</strong> programming language.
             </p>
             <p>
                 It also allowed me to study and understand the concepts behind a
-                blockchaing. Implemented a basic network distributed blockchain
+                blockchain. Implemented a basic network distributed blockchain
                 application.
             </p>
             <span>
