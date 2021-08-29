@@ -7,17 +7,17 @@ const Project = props => {
     let config = null;
     let ExpensesManagerText = (
         <>
-            <h2>Expenses Manager</h2>
+            <h2>My Expenses Manager</h2>
             <p>
                 <strong>2020-12: </strong>
-                Expenses Manager is a personal project I am building to use for
-                my family expenses tracking routine, in the place of the current
-                excel system we have. It is a fullstack web application
-                developed using the MERN Stack.
+                Expenses Manager is a personal project I built to use for
+                my family expenses tracking routine, to replace the excel
+                spreadsheet system we used. It is a fullstack web application
+                developed using the MERN Stack (Mongo Express React Node).
             </p>
             <p>
-                The Front End was built in <strong>React</strong> using
-                functional components and hooks, including custom hooks, user
+                The Frontend was built in <strong>React</strong> using
+                functional components and hooks, including custom hooks and user
                 authentication. It has password reset capabilities, and
                 graphical reports done using chartjs.
             </p>
@@ -27,11 +27,22 @@ const Project = props => {
                 <strong> MongoDB</strong> managed through MongoDB Atlas service.
             </p>
             <p>
-                This project is currently at a MVP state. I plan to deploy this
-                project to AWS later in January. Still have some security and
-                deployment considerations to take into account before it is
-                deployed to Production.
+                I deployed the frontend using Netlify service, and the backend
+                was deployed using Digital Ocean.
             </p>
+            
+            <p>
+                <em>
+                    You can use "<strong>tester@gmail.com</strong>" as username
+                    and "<strong>asdasd</strong>" as password, or create your
+                    own user, for testing the application.
+                </em>
+            </p>
+            <span>
+                <a href="https://myexpensesmanager.com/" target="_blank">
+                    View My Expenses Manager
+                </a>
+            </span>
         </>
     );
     let PyCoinText = (
@@ -62,7 +73,7 @@ const Project = props => {
             <p>
                 <strong>2020-04: </strong>
                 Meme Share is a fullstack web application developed using and
-                practicing the MERN Stack. The Front End was built in
+                practicing the MERN Stack. The Frontend was built in
                 <strong> React</strong> using functional components and hooks,
                 including custom hooks, user authentication and file uploads.
                 Deployed to Netlify.
@@ -100,7 +111,7 @@ const Project = props => {
             <p>
                 <strong>2019-08: </strong>
                 Burger Builder is a web application I developed and deployed for
-                practicing React. Focusing on the Front End, it was developed
+                practicing React. Focusing on the Frontend, it was developed
                 using <strong>React, Redux, React Router</strong>. Features
                 statefull and stateless components and containers, state
                 management with Redux. Has user authentication and resource
@@ -186,7 +197,7 @@ const Project = props => {
             <p>
                 <strong>2019-08: </strong>
                 The current portfolio page was built using{" "}
-                <strong>React and Gatsby</strong> for the Front End. Before this
+                <strong>React and Gatsby</strong> for the Frontend. Before this
                 one, I have build the{" "}
                 <strong>old page using HTML CSS and Javascript only</strong>,
                 with the help of Bootstrap for styling.
