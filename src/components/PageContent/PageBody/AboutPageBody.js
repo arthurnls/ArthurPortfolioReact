@@ -55,11 +55,8 @@ const AboutPageBody = () => {
                     and negotiating with clients.
                 </p>
                 <p>
-                    If you want to talk with me, please feel free to{" "}
-                    <Link className={classes.textAnchor} to="/contact">
-                        contact me
-                    </Link>{" "}
-                    or use{" "}
+                    If you want to talk with me, please feel free to send a
+                    message through{" "}
                     <a
                         className={classes.textAnchor}
                         href="https://www.linkedin.com/in/arthur-saraiva/"
