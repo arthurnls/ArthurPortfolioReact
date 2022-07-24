@@ -10,8 +10,8 @@ const Project = props => {
             <h2>My Expenses Manager</h2>
             <p>
                 <strong>2020-12: </strong>
-                Expenses Manager is a personal project I built to use for
-                my family expenses tracking routine, to replace the excel
+                Expenses Manager is a personal project I built to use for my
+                family expenses tracking routine, to replace the excel
                 spreadsheet system we used. It is a fullstack web application
                 developed using the MERN Stack (Mongo Express React Node).
             </p>
@@ -30,7 +30,7 @@ const Project = props => {
                 I deployed the frontend using Netlify service, and the backend
                 was deployed using Digital Ocean.
             </p>
-            
+
             <p>
                 <em>
                     You can use "<strong>tester@gmail.com</strong>" as username
@@ -39,7 +39,10 @@ const Project = props => {
                 </em>
             </p>
             <span>
-                <a href="https://myexpensesmanager.com/" target="_blank">
+                <a
+                    href="https://myexpensesmanager.netlify.app/"
+                    target="_blank"
+                >
                     View My Expenses Manager
                 </a>
             </span>
